@@ -1,3 +1,29 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://impolite-burst.surge.sh/"
+languageCode = "en"
+title = "Joshua Crewe"
+theme = "hemingway"
+copyright = ""
+description = "Notes from a human developer"
+keywords = ["developer", "cornwall"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/joshuaCrewe"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/joshua_crewe"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
