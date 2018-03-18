@@ -1,4 +1,4 @@
-baseurl = "http://impolite-burst.surge.sh/"
+baseurl = "//joshua-crewe.netlify.com"
 languageCode = "en"
 title = "Joshua Crewe"
 theme = "hemingway"
@@ -14,7 +14,7 @@ category = "categories"
 
 [params.highlight]
 style = "github"
-languages = ["go", "dockerfile"]
+languages = ["html", "css", "javascript"]
 
 [[params.social]]
 url = "https://github.com/joshuaCrewe"
