@@ -14,7 +14,7 @@ category = "categories"
 
 [params.highlight]
 style = "github"
-languages = ["html", "css", "javascript"]
+languages = ["css", "javascript"]
 
 [[params.social]]
 url = "https://github.com/joshuaCrewe"
