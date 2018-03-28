@@ -8,7 +8,7 @@ One of my favourite books to revisit is [Ghost in the wires](https://www.amazon.
 
 ## The technical side
 
-The story moves more or less chronologically through Mitnicks life, from his growing up in the San Fernando Valley getting hooked on magic tricks and phone freaking right up to his adult life where he spent time on the run from the FBI.
+The story moves more or less chronologically through Mitnick's life, from his growing up in the San Fernando Valley getting hooked on magic tricks and phone freaking right up to his adult life where he spent time on the run from the FBI.
 
 Throughout the story Mitnick goes into some detail about some of the schemes he was involved in. He talks about the conversations he was having with phone operators to get information out of them as well as the more technical details about the software he was using / obtaining. I get the impression from those who I have spoken to about this book that the technical details are a bit of a yawn, but for me these details are what make the story fascinating.
 
