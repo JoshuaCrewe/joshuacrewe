@@ -1,6 +1,6 @@
 ---
 title: "Ghost in the Wires"
-date: 2018-03-24T13:30:51Z
+date: 2018-03-23T13:30:51Z
 draft: false
 ---
 
