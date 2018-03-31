@@ -1,0 +1,12 @@
+<span 
+    class="lazy {{ .Get "class" }}" 
+    data-src="/uploads/images/post/{{ .Get "src" }}-800.{{ .Get "type" }}"  
+    data-srcset="
+        /uploads/images/post/{{ .Get "src" }}-800.{{ .Get "type" }} 800w,
+        /uploads/images/post/{{ .Get "src" }}-400.{{ .Get "type" }} 400w,
+        /uploads/images/post/{{ .Get "src" }}-1600.{{ .Get "type" }} 1600w
+        " 
+    data-sizes="100vw" 
+    data-alt="{{ .Get "alt" }}"
+    >
+</span>
