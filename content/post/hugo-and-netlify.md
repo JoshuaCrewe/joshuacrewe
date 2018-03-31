@@ -8,7 +8,7 @@ None of the stuff I made in the early days of my web development career still ex
 
 ## Surge
 
-[Surge](https://surge.sh) was the first hosting that I was introduced to which opened my eyes to how easy it is to deploy a static site today. So, to preserve the past and always remember where I came from here is the original [joshuacrewe.co.uk](https://joshuacrewe.co.uk). If I don't look at the code too closely then I am pretty pleased with it even to this day. The intention behind the site was to prove to the world ( and potential employers ) that I could actually build a website. It launched with one broken link ( which, if working would take the user to a page with no content ) and no contact information.
+[Surge](https://surge.sh) was the first hosting that I was introduced to which opened my eyes to how easy it is to deploy a static site today. So, to preserve the past and always remember where I came from here is the original [joshuacrewe.co.uk](https://joshuacrewe.surge.sh). If I don't look at the code too closely then I am pretty pleased with it even to this day. The intention behind the site was to prove to the world ( and potential employers ) that I could actually build a website. It launched with one broken link ( which, if working would take the user to a page with no content ) and no contact information.
 
 It served its purpose though and I think that it did help me to land a job as a web developer. Job done. Fun fact - Thats not me in the photo.
 
