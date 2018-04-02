@@ -12,18 +12,14 @@ category = "categories"
 
 [params]
 
-[params.highlight]
-style = "github"
-languages = ["css", "javascript"]
-
 [[params.social]]
 url = "https://github.com/joshuaCrewe"
-fa_icon = "fa-github"
+ion_icon = "ion-social-github"
 
 [[params.social]]
 url = "https://twitter.com/joshua_crewe"
-fa_icon = "fa-twitter"
+ion_icon = "ion-social-twitter"
 
 [[params.social]]
 url = "/index.xml"
-fa_icon = "fa-rss"
+ion_icon = "ion-social-rss"
