@@ -17,11 +17,6 @@
         <meta name="msapplication-TileColor" content="#444444">
         <meta name="theme-color" content="#ffffff">
 
-        <!-- Netlify is not ready for these pipes yet -->
-        <!-- {{ $options := (dict "targetPath" "css/app.css" "outputStyle" "compressed" "enableSourceMap" true ) }} -->
-        <!-- {{ $style := resources.Get "sass/app.scss" | resources.ToCSS $options }} -->
-        <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen"> -->
-
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/app.min.css">
 
         <!-- Matomo -->
