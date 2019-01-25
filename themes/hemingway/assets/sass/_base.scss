@@ -1,0 +1,40 @@
+// Base Styles
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: $body-font;
+    font-size: $font-size;
+    line-height: $line-height;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: $bg;
+    color: $black;
+    font-weight: 400;
+}
+
+a {
+    transition: all .3s ease-in-out;
+}
+
+.wrap {
+    max-width: 620px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content .lazy {
+    margin-bottom: 1.5rem;
+}
+
+.content pre {
+    margin-bottom: 1.5rem;
+}

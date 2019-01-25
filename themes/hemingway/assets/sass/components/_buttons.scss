@@ -1,0 +1,15 @@
+.button {
+    appearance: none;
+    border: 1px solid $border;
+    background-color: $white;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    display: inline-block;
+    color: $black;
+}
+
+.button.is-disabled {
+    background-color: $grey;
+    opacity: .5;
+}

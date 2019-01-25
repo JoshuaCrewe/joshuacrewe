@@ -1,0 +1,81 @@
+/**
+ * Seoul256 theme
+ */
+
+.hljs {
+    display: block;
+    background: $black;
+    padding: 1.25rem 1.25rem .75rem;
+    color: #d0d0d0;
+    overflow-x: auto;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 3px;
+
+    // box-shadow: 0px 0px 10px transparentize($black, .5);
+}
+
+.hljs-comment,
+.hljs-meta {
+    color: #5f865f;
+}
+
+.hljs-string,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-strong,
+.hljs-emphasis,
+.hljs-quote {
+    color: #87afaf;
+}
+
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-type {
+    color: #ffafaf;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute {
+    color: #d7af5f;
+}
+
+.hljs-attr,
+.hljs-section,
+.hljs-name {
+    color: #87af87;
+}
+
+.hljs-tag {
+    // color: #3a3a3a;
+    color: #d0d0d0;
+}
+
+.hljs-title,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: #d7afaf;
+}
+
+.hljs-addition {
+    color: #87af87;
+    background-color: #d0d0d0;
+}
+
+.hljs-deletion {
+    color: #d7005f;
+    background-color: #d0d0d0;
+}
+
+.hljs-link {
+    text-decoration: underline;
+}
+
+.content code {
+    line-height: 1.2;
+    font-size: .875rem;
+}

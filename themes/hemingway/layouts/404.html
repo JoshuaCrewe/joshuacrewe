@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+<a href="{{ .Site.BaseURL }}" class="logo">
+    <span class="f3">J</span>
+</a>
+
+<section class="header">
+    <div class="container">
+        <nav class="nav">
+            <div class="nav-left center">
+                <a class="title " href="{{ .Site.BaseURL }}">
+                    <h1 class="mb0">Bums</h1>
+                </a>
+                <p class="grey mt0 f7 monospace">{ this is a 404 error }<span class="blink">_</span></p>
+            </div>
+        </nav>
+    </div>
+</section>
+<section class="section">
+    <div class="content">
+        <p>
+            I think the URL is probs wrong, in that it doesn't lead to a page. Do you want to go <a href="{{ .Site.BaseURL }}">home</a> ?
+        </p>
+    </div>
+</section>
+{{ partial "footer" . }}

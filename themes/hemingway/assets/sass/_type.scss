@@ -1,0 +1,120 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $title-font;
+    margin: 2.25rem 0 1.5rem;
+
+    &:before {
+        color: $border;
+    }
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.25;
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: .875rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: .875rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+code {
+    background-color: #f8f8f8;
+    font-family: $monospace;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.monospace {
+    font-family: $monospace;
+}
+
+.title {
+    text-decoration: none;
+    color: $black;
+
+     &:before {
+         content: ' ';
+     }
+}
+
+.subtitle {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: $black;
+}
+
+.content {
+    font-family: $title-font;
+
+    // h1::before { content: "# "; }
+    // h2::before { content: "## "; }
+    // h3::before { content: "### "; }
+    // h4::before { content: "#### "; }
+    // h5::before { content: "##### "; }
+    // h6::before { content: "###### "; }
+
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mb1 {
+    margin-bottom: .25rem;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.mb3 {
+	margin-bottom: 1rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.center {
+    text-align: center;
+}
