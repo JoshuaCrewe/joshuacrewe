@@ -1,0 +1,6 @@
+{
+  "name": "hemingway",
+  "devDependencies": {
+    "venn-gulp-tasks": "git+ssh://git@bitbucket.org/venncreative/gulp.git"
+  }
+}

@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+{{ partial "home-header" . }}
+<section class="section">
+    {{ range sort .Paginator.Pages }}
+        <article class="post">
+            <a class="title" href="{{ .Permalink }}">
+                <h1 class="title f3 mb2 mt0">
+                    {{ .Title }}
+                </h1> 
+                {{ if .Draft }} ::Draft {{ end }}
+            </a>
+            <h2 class="grey f7 mb3 mt0 monospace">
+                { {{ .Date.Format "2 January 2006" }} }
+            </h2>
+
+            {{ if .Params.tags }}
+                {{ partial "tags" .Params.tags }}
+            {{ end }}
+
+        </article>
+    {{ end }}
+</section>
+{{ partial "pager" . }}
+{{ partial "footer" . }}
