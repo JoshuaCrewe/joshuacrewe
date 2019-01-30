@@ -2,13 +2,11 @@
 {{ partial "nav" . }}
 {{ partial "page-header" . }}
 <section class="section">
-    <div class="container">
-        {{ if .Params.tags }}
-            {{ partial "tags" .Params.tags }}
-        {{ end }}
-        <div class="content">
-            {{ .Content }}
-        </div>
+    {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+    {{ end }}
+    <div class="content">
+        {{ .Content }}
     </div>
 </section>
 {{ partial "disqus" . }}

@@ -1,12 +1,21 @@
 <section class="header">
-    <div class="container">
-        <nav class="nav">
-            <div class="nav-left center">
-                <a class="title " href="{{ .Site.BaseURL }}">
-                    <h1 class="mb1">{{ .Title }}</h1>
+    <nav>
+        <div class="center">
+            {{ if .Page.IsHome }}
+                <a href="{{ .Site.BaseURL }}">
+                    <h1 class="title mb1 mt0">Notes</h1>
                 </a>
-                <p class="grey mt0 f7 monospace">{ {{ .Date.Format "2 January 2006" }} }<span class="blink">_</span></p>
-            </div>
-        </nav>
-    </div>
+                <p class="grey mt0 f6 monospace">
+                    from a human developer<span class="blink">_</span>
+                </p>
+            {{ else }}
+                <a href="{{ .Site.BaseURL }}">
+                    <h1 class="mb1 title mt0">{{ .Title }}</h1>
+                </a>
+                <p class="grey mt0 f6 monospace">
+                    { {{ .Date.Format "2 January 2006" }} }<span class="blink">_</span>
+                </p>
+            {{ end }}
+        </div>
+    </nav>
 </section>
