@@ -1,7 +1,7 @@
 ---
 title: "Android for a Year"
-date: 2018-12-16T08:30:52Z
-draft: true
+date: 2019-05-18T08:30:52Z
+draft: false
 ---
 
 I can often get a bit single minded about things. I can see it happening when I get an idea in my head and I start to go in on myself to follow the thought through. Recently it has been the idea of switching to more open source platforms and software. I recently got a hold of [actual hardware to run Linux on](https://www.joshuacrewe.co.uk/post/linux-at-last/) which had been something I had wanted to do for a long time. 
