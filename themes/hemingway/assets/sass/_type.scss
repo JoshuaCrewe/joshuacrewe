@@ -77,6 +77,14 @@ em {
      }
 }
 
+ol {
+    list-style: decimal;
+}
+
+ol li {
+    margin-bottom: 1rem;
+}
+
 .subtitle {
     font-size: 1rem;
     line-height: 1rem;
