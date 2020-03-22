@@ -1,7 +1,6 @@
 ---
 title: "Pacman Helpers"
-date: 2018-10-21T10:37:12+01:00
-draft: true
+date: 2020-03-22T19:20:12+01:00
 ---
 
 There are a few commands for pacman that I tend to forget but find really useful. A full list can be found in the [Arch Wiki](https://wiki.archlinux.org/index.php/Pacman).
