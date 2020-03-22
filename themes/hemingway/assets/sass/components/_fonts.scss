@@ -1,11 +1,13 @@
+@import '~typeface-lora/index.css';
+
 @font-face {
-  font-family: 'Lora';
-  src:  url('../fonts/lora/lora-regular.woff2') format('woff2'),
-        url('../fonts/lora/lora-regular.woff') format('woff');
+    font-family: 'Lora';
+    src: url('~typeface-lora/files/lora-latin-400.woff2') format('woff2'),
+        url('~typeface-lora/files/lora-latin-400.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Fira Mono';
-  src:  url('../fonts/fira-mono/FiraMono-Regular.woff2') format('woff2'),
-        url('../fonts/fira-mono/FiraMono-Regular.woff') format('woff');
+    font-family: 'Fira Code';
+    src: url('~firacode/distr/woff2/FiraCode-Regular.woff2') format('woff2'),
+        url('~firacode/distr/woff/FiraCode-Regular.woff') format('woff');
 }
