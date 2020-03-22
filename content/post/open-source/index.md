@@ -4,7 +4,7 @@ date: 2020-03-22T19:24:41Z
 draft: false
 ---
 
-I have been trying to contribute towards open source more as well as use more open source applications. I wrote previously about [using a Linux OS](/post/linux-at-last/) as well as [using Android on a phone](post/android-for-a-year/). Neither of these became more than a hobby project.
+I have been trying to contribute towards open source more as well as use more open source applications. I wrote previously about [using a Linux OS](/post/linux-at-last/) as well as [using Android on a phone](/post/android-for-a-year/). Neither of these became more than a hobby project.
 
 ## Android via Lineage OS
 
