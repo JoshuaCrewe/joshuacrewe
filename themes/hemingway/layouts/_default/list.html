@@ -10,8 +10,9 @@
                 </h1> 
                 {{ if .Draft }} ::Draft {{ end }}
             </a>
+
             <h2 class="grey f7 mb3 mt0 monospace">
-                { {{ .Date.Format "2 January 2006" }} }
+                { {{ .Date.Format "January 2006" }} }
             </h2>
 
             {{ if .Params.tags }}
