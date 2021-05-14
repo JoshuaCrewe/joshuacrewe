@@ -1,5 +1,5 @@
 ---
-title: "Magic SlysRq Key"
+title: "Magic SysRq Key"
 date: 2021-05-14T18:37:51+01:00
 draft: false
 ---
