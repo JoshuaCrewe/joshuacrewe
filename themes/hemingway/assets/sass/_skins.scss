@@ -2,10 +2,18 @@
     color: $darker-grey;
 }
 
+.white {
+    color: white;
+}
+
 .black {
     color: $black;
 }
 
 .hover-grey:hover {
     color: $darker-grey;
+}
+
+.bg-slategrey {
+    background: slategrey;
 }

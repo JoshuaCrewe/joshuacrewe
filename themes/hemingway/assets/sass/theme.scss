@@ -1,0 +1,36 @@
+.theme-letter {
+    background: slategrey;
+    color: $white;
+
+    .title {
+        color: $white;
+    }
+    .meta {
+        color: $grey;
+    }
+}
+
+.theme-dark {
+    background-color: $black;
+    color: $white;
+
+    .title {
+        color: $white;
+    }
+    .meta {
+        color: $grey;
+    }
+
+    .content a {
+        color: $white;
+        border-color: $white;
+    }
+
+    .theme-letter {
+        background-color: darkslategrey;
+    }
+
+    .post {
+        border-bottom-color: #333;
+    }
+}

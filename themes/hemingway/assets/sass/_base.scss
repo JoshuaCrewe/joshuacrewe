@@ -13,17 +13,23 @@ body {
     background-color: $bg;
     color: $black;
     font-weight: 400;
+    min-height: 100vh;
 }
 
 a {
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .wrap {
-    max-width: 620px;
+    // max-width: 620px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 620px;
 }
 
 .content img {

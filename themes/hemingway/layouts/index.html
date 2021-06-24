@@ -2,25 +2,27 @@
 {{ partial "nav" . }}
 {{ partial "page-header" . }}
 <section class="section">
-    {{ range where .Paginator.Pages "Type" "post" }}
-        <article class="post">
-            <a class="title" href="{{ .Permalink }}">
-                <h1 class="title f3 mb2 mt0">
-                    {{ .Title }}
-                </h1> 
-                {{ if .Draft }} ::Draft {{ end }}
-            </a>
+    <div class="row">
+        {{ range where .Paginator.Pages "Type" "post" }}
+            <article class="post">
+                <a class="title" href="{{ .Permalink }}">
+                    <h1 class="title f3 mb2 mt0">
+                        {{ .Title }}
+                    </h1> 
+                    {{ if .Draft }} ::Draft {{ end }}
+                </a>
 
-            <h2 class="grey f7 mb3 mt0 monospace">
-                { {{ .Date.Format "January 2006" }} }
-            </h2>
+                <h2 class="grey f7 mb3 mt0 monospace">
+                    { {{ .Date.Format "January 2006" }} }
+                </h2>
 
-            {{ if .Params.tags }}
-                {{ partial "tags" .Params.tags }}
-            {{ end }}
+                {{ if .Params.tags }}
+                    {{ partial "tags" .Params.tags }}
+                {{ end }}
 
-        </article>
-    {{ end }}
+            </article>
+        {{ end }}
+    </div>
 </section>
 {{ partial "pager" . }}
 {{ partial "footer" . }}
