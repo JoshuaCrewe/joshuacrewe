@@ -1,19 +1,21 @@
 {{ if (and (or (.Paginator.HasPrev) (.Paginator.HasNext) ) ) }}
 <section class="section">
-    <nav class="pagination">
+    <div class="row">
+        <nav class="pagination">
 
-        {{ if .Paginator.HasPrev }}
-            <a class="button" href="{{ .Paginator.Prev.URL }}">
-                Newer
-            </a>
-        {{ end }}
+            {{ if .Paginator.HasPrev }}
+                <a class="button" href="{{ .Paginator.Prev.URL }}">
+                    Newer
+                </a>
+            {{ end }}
 
-        {{ if .Paginator.HasNext }}
-            <a class="button" href="{{ .Paginator.Next.URL }}">
-                Older
-            </a>
-        {{ end }}
+            {{ if .Paginator.HasNext }}
+                <a class="button" href="{{ .Paginator.Next.URL }}">
+                    Older
+                </a>
+            {{ end }}
 
-    </nav>
+        </nav>
+    </div>
 </section>
 {{ end }}

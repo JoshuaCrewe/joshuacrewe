@@ -1,21 +1,27 @@
-<section class="header">
-    <nav>
-        <div class="center">
-            {{ if .Page.IsHome }}
-                <a href="{{ .Site.BaseURL }}">
-                    <h1 class="title mb1 mt0">Notes</h1>
-                </a>
-                <p class="grey mt0 f6 monospace">
-                    from a human developer<span class="blink">_</span>
-                </p>
-            {{ else }}
-                <a href="{{ .Site.BaseURL }}">
-                    <h1 class="mb1 title mt0">{{ .Title }}</h1>
-                </a>
-                <p class="grey mt0 f6 monospace">
-                    { {{ .Date.Format "2 January 2006" }} }<span class="blink">_</span>
-                </p>
-            {{ end }}
-        </div>
-    </nav>
+<section class="header {{ if eq .Type "letter" }} theme-letter {{ end }} " >
+    <div class="row">
+        <nav>
+            <div class="center">
+                {{ if .Page.IsHome }}
+                    <a href="{{ .Site.BaseURL }}">
+                        <h1 class="title mb1 mt0">Notes</h1>
+                    </a>
+                    <p class="grey mt0 f6 monospace">
+                        from a human developer<span class="blink">_</span>
+                    </p>
+                {{ else }}
+                    <a href="{{ .Site.BaseURL }}">
+                        <h1 class="mb1 title mt0">{{ .Title }}</h1>
+                    </a>
+                    <p class="meta mt0 f6 monospace">
+                        {{ if not .IsPage }}
+                            {{ .Content | plainify }}<span class="blink">_</span>
+                        {{ else }}
+                                { {{ .Date.Format "2 January 2006" }} }<span class="blink">_</span>
+                        {{ end }}
+                    </p>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
 </section>

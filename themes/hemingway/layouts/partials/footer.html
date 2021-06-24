@@ -1,19 +1,21 @@
             <section class="section">
-                <div class="container center">
-                    <div class="">
-                        <nav class="">
-                            {{ range .Site.Params.social }}
-                                <a class="black icon" href="{{ .url }}">
-                                    <svg class="ion-icon">
-                                        <use xlink:href="#{{ .ion_icon }}"></use>
-                                    </svg>
-                                </a>
-                            {{ end }}
-                        </nav>
+                <div class="row">
+                    <div class="container center">
+                        <div class="">
+                            <nav class="">
+                                {{ range .Site.Params.social }}
+                                    <a class="icon" href="{{ .url }}">
+                                        <svg class="ion-icon">
+                                            <use xlink:href="#{{ .ion_icon }}"></use>
+                                        </svg>
+                                    </a>
+                                {{ end }}
+                            </nav>
+                        </div>
+                        {{ if .Site.Copyright }}
+                            <p>{{ .Site.Copyright | safeHTML }}</p>
+                        {{ end }}
                     </div>
-                    {{ if .Site.Copyright }}
-                        <p>{{ .Site.Copyright | safeHTML }}</p>
-                    {{ end }}
                 </div>
             </section>
         </div><!-- end of wrap -->

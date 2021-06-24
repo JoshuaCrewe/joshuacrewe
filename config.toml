@@ -23,3 +23,7 @@ ion_icon = "ion-social-twitter"
 [[params.social]]
 url = "/index.xml"
 ion_icon = "ion-social-rss"
+
+[[params.social]]
+url = "https://proxy.vulpes.one/gemini/gemini.joshuacrewe.co.uk"
+ion_icon = "ion-social-rocket"
