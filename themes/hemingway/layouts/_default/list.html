@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 {{ partial "page-header" . }}
 <section class="section">
-    {{ range sort .Paginator.Pages }}
+    {{ range .Paginator.Pages }}
         <article class="post">
             <a class="title" href="{{ .Permalink }}">
                 <h1 class="title f3 mb2 mt0">

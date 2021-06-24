@@ -12,9 +12,13 @@
                 <a href="{{ .Site.BaseURL }}">
                     <h1 class="mb1 title mt0">{{ .Title }}</h1>
                 </a>
-                <p class="grey mt0 f6 monospace">
-                    { {{ .Date.Format "2 January 2006" }} }<span class="blink">_</span>
-                </p>
+                {{ if not .IsPage }}
+                    {{ .Content }}
+                {{ else }}
+                    <p class="grey mt0 f6 monospace">
+                        { {{ .Date.Format "2 January 2006" }} }<span class="blink">_</span>
+                    </p>
+                {{ end }}
             {{ end }}
         </div>
     </nav>
