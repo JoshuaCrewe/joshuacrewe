@@ -133,3 +133,15 @@ ol li {
 .center {
     text-align: center;
 }
+
+blockquote {
+    border-left: 5px solid $darker-grey;
+    padding: 1rem;
+    color: $black;
+    background-color: $grey;
+
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
