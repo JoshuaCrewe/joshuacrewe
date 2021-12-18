@@ -8,6 +8,10 @@
     .meta {
         color: $grey;
     }
+
+    ~ .section blockquote {
+        border-left-color: slategrey;
+    }
 }
 
 .theme-dark {
