@@ -1,6 +1,6 @@
 <header class="main-header {{ if eq .Type "letter" }} theme-letter {{ end }} " >
     <div class="row">
-        <a href="{{ .Site.BaseURL }}" class="logo">
+        <a href="{{ .Site.BaseURL }}{{ if eq .Type "letter" }}/letter{{ end }}" class="logo">
             <span class="f3">J</span>
         </a>
         <button class="js-theme hide">
