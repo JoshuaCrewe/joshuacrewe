@@ -14,19 +14,19 @@
     "url": ""
   },
   "dependencies": {
-    "firacode": "^5.2.0",
-    "laravel-mix": "6.0.19",
+    "firacode": "^6.2.0",
+    "laravel-mix": "6.0.43",
     "lodash.throttle": "^4.1.1",
-    "postcss-preset-env": "6.7.0",
+    "postcss-preset-env": "7.4.3",
     "reset-css": "5.0.1",
-    "svg-spritemap-webpack-plugin": "4.0.1",
+    "svg-spritemap-webpack-plugin": "4.4.0",
     "typeface-lora": "^1.1.13"
   },
   "devDependencies": {
-    "postcss": "^8.1",
-    "resolve-url-loader": "4.0.0",
-    "sass": "^1.32.13",
-    "sass-loader": "11.1.1",
-    "vue-template-compiler": "^2.6.12"
+    "postcss": "^8.4",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.50.0",
+    "sass-loader": "12.6.0",
+    "vue-template-compiler": "^2.6.14"
   }
 }
