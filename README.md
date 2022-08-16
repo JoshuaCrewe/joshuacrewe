@@ -1,6 +1,1 @@
-## Images
-
-shortcode for images
-
-{{< img image-name "The Alt text" >}}
-
+This repo has moved to https://codeberg.org/JoshuaCrewe/joshuacrewe
